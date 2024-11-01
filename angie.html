@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angie, mi niña</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        /* Contenedor principal */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            color: #880e4f;
+        }
+        /* Encabezado y descripción */
+        h1 {
+            color: #d81b60;
+            font-size: 3rem;
+            margin: 10px 0;
+        }
+        .description {
+            font-size: 1.2rem;
+            color: #ad1457;
+            margin-bottom: 30px;
+        }
+        /* Información adicional */
+        .extra-info {
+            background-color: #f8bbd0;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: #6a1b9a;
+            line-height: 1.5;
+            margin-top: 30px;
+        }
+        /* Botón para redirigir */
+        .redirect-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: #ffffff;
+            background-color: #d81b60;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .redirect-button:hover {
+            background-color: #ad1457;
+        }
+        /* Navegación */
+        .navbar {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 20px;
+            background-color: #ec407a;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #ff80ab;
+        }
+        /* Contenedor de cuadros adicionales */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .grid-item {
+            background-color: #f8bbd0;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: left;
+            color: #6a1b9a;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        .grid-item h2 {
+            font-size: 1.2rem;
+            color: #d81b60;
+            margin-top: 0;
+        }
+        /* Responsivo */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .description, .extra-info, .grid-item {
+                font-size: 1rem;
+            }
+            .navbar {
+                flex-direction: column;
+                gap: 10px;
+                top: 5px;
+                right: 5px;
+                padding: 5px;
+            }
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegación con enlaces a los poemas en la parte superior derecha -->
+    <div class="navbar">
+        <a href="poema1.html" target="_blank">Mi amor por ti</a>
+        <a href="poema2.html" target="_blank">Que sea eterno</a>
+        <a href="poema3.html" target="_blank">Nadie como tú...</a>
+    </div>
+
+    <div class="container">
+        <h1>Angie, mi niña...</h1>
+        <p class="description">Eres lo que más anhelo en el mundo. Siempre te voy a querer, y esto es prueba de ello.</p>
+        
+        <!-- Información adicional -->
+        <div class="extra-info">
+            Angie, haz que todo valga la pena, hasta ahora toda mi vida ha tenido sentido por ti. Tú has sido la receta de mi vida y todo lo que anhelo también eres tú. Sabes, yo solo te amo a ti, a nadie más...
+        </div>
+
+        <!-- Botón que redirige al enlace de YouTube -->
+        <a href="https://www.youtube.com/watch?v=69npN04PwL0" target="_blank" class="redirect-button">¡Aprieta aquí!</a>
+
+        <!-- Cuadros adicionales -->
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>No me rendiré</h2>
+                <p>Contigo no me rendiré, lo intentaré una y otra vez. Contigo vale la pena esto; nunca me quise arriesgar a amar a alguien... pero aunque tengo miedo de que seas solo una página en tu vida, por ti lo haría.</p>
+            </div>
+            <div class="grid-item">
+                <h2>Debo confesarte</h2>
+                <p>Debo confesar que soy celoso y a veces muy inseguro, pero me esfuerzo en cambiar eso porque quiero que puedas ser feliz conmigo. Tu felicidad es lo más importante para mí.</p>
+            </div>
+            <div class="grid-item">
+                <h2>Nunca lo haría</h2>
+                <p>Nunca haría nada para herirte. Cambié para eso, para no lastimarte, porque tus sentimientos me importan. Quiero que sepas que puedes contar conmigo siempre y que no quiero que sufras por mi causa.</p>
+            </div>
+            <div class="grid-item">
+                <h2>¿Qué haría por ti?</h2>
+                <p>Por ti haría lo imposible. Recorrería el mundo solo para encontrarte, porque sé que vales la pena. Mi amor por ti es más grande que mis miedos. Imagínate cuánto te amo.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
